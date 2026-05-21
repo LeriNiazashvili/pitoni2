@@ -1,7 +1,7 @@
 from typing import Union    
 
 def commission_decorator(func):
-    def wrapper(balance: Union[iny, float], amount: Union[int, float]):
+    def wrapper(balance: Union[int, float], amount: Union[int, float]):
         commission = 1
         totoal_deduction = amount + commission
 
